@@ -1,0 +1,116 @@
+﻿Сборка начата 15.11.2015 20:40:47.
+     1>Проект "c:\Users\Николай\documents\visual studio 2015\Projects\RussianLanguage_VS2015\RussianLanguage_VS2015\RussianLanguage_VS2015.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MorphemicComposition.cpp Source.cpp
+         Source.cpp
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(13): error C2039: Size: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(15): error C3867: "OccurrenceMorpheme::IsEmpty": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(20): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(64): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(64): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(66): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(70): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(86): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(110): error C2248: MorphemicComposition::ending: невозможно обратиться к private член, объявленному в классе "MorphemicComposition"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.h(37): note:  см. объявление "MorphemicComposition::ending"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.h(12): note:  см. объявление "MorphemicComposition"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(118): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(118): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(120): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(125): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(158): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(158): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(160): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(164): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(182): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(200): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(222): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(244): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(254): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(265): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(265): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(267): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(271): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(275): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(285): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(297): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(301): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(311): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(323): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(327): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(339): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(343): error C2039: k: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphology.h(363): error C2248: MorphemicComposition::ending: невозможно обратиться к private член, объявленному в классе "MorphemicComposition"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.h(37): note:  см. объявление "MorphemicComposition::ending"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.h(12): note:  см. объявление "MorphemicComposition"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\source.cpp(51): error C3861: ReadDictionaryMorphemeFiles: идентификатор не найден
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\source.cpp(76): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::list<MorphemicComposition,std::allocator<_Ty>> *" (или приемлемое преобразование отсутствует)
+                 with
+                 [
+                     _Ty=MorphemicComposition
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1098): note: может быть "std::list<MorphemicComposition,std::allocator<_Ty>> &std::list<_Ty,std::allocator<_Ty>>::operator =(const std::list<_Ty,std::allocator<_Ty>> &)"
+                 with
+                 [
+                     _Ty=MorphemicComposition
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1076): note: или       "std::list<MorphemicComposition,std::allocator<_Ty>> &std::list<_Ty,std::allocator<_Ty>>::operator =(std::initializer_list<_Ty>)"
+                 with
+                 [
+                     _Ty=MorphemicComposition
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\list(993): note: или       "std::list<MorphemicComposition,std::allocator<_Ty>> &std::list<_Ty,std::allocator<_Ty>>::operator =(std::list<_Ty,std::allocator<_Ty>> &&) noexcept(<expr>)"
+                 with
+                 [
+                     _Ty=MorphemicComposition
+                 ]
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\source.cpp(76): note: при попытке сопоставить список аргументов "(std::list<MorphemicComposition,std::allocator<_Ty>>, std::list<MorphemicComposition,std::allocator<_Ty>> *)"
+                 with
+                 [
+                     _Ty=MorphemicComposition
+                 ]
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\source.cpp(166): error C3861: PrintDictionaryMorpheme: идентификатор не найден
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\source.cpp(269): error C3861: SaveDictionaryMorphemeFiles: идентификатор не найден
+         MorphemicComposition.cpp
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.cpp(86): error C2039: Size: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.cpp(101): error C2039: Size: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.cpp(136): error C2039: Size: не является членом "OccurrenceMorpheme"
+         c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\occurrencemorpheme.h(10): note:  см. объявление "OccurrenceMorpheme"
+     1>c:\users\николай\documents\visual studio 2015\projects\russianlanguage_vs2015\russianlanguage_vs2015\morphemiccomposition.cpp(161): error C3867: "OccurrenceMorpheme::IsEmpty": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+         Создание кода...
+     1>Сборка проекта "c:\Users\Николай\documents\visual studio 2015\Projects\RussianLanguage_VS2015\RussianLanguage_VS2015\RussianLanguage_VS2015.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.10
